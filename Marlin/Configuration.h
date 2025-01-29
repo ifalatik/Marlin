@@ -1376,7 +1376,7 @@
 
 // @section machine
 
-// The size of the printable area
+// The size of the printable areaWhenever I do manual bed levelling (using the screws) then mesh bed levelling and go back to manual bed levelling, the levelling is off again..
 #define X_BED_SIZE 235
 #define Y_BED_SIZE 235
 
@@ -1745,7 +1745,7 @@
  * - Allows Z homing only when XY positions are known and trusted.
  * - If stepper drivers sleep, XY homing may be required again before Z homing.
  */
-#define Z_SAFE_HOMING
+//#define Z_SAFE_HOMING
 
 #if ENABLED(Z_SAFE_HOMING)
   #define Z_SAFE_HOMING_X_POINT X_CENTER  // X point for Z homing
