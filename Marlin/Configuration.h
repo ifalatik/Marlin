@@ -600,9 +600,9 @@
     #define DEFAULT_Ki_LIST {   1.08,   1.08 }
     #define DEFAULT_Kd_LIST { 114.00, 114.00 }
   #else
-    #define DEFAULT_Kp  36.66
-    #define DEFAULT_Ki   4.75
-    #define DEFAULT_Kd  70.75
+    #define DEFAULT_Kp  28.86
+    #define DEFAULT_Ki   3.08
+    #define DEFAULT_Kd  67.53
   #endif
 #endif // PIDTEMP
 
@@ -1730,7 +1730,7 @@
 // Manually set the home position. Leave these undefined for automatic settings.
 // For DELTA this is the top-center of the Cartesian print volume.
 //#define MANUAL_X_HOME_POS 0
-//#define MANUAL_Y_HOME_POS 0
+#define MANUAL_Y_HOME_POS -9
 //#define MANUAL_Z_HOME_POS 0
 //#define MANUAL_I_HOME_POS 0
 //#define MANUAL_J_HOME_POS 0
