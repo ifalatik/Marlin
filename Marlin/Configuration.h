@@ -1375,7 +1375,7 @@
 
 // @section machine
 
-// The size of the printable areaWhenever I do manual bed levelling (using the screws) then mesh bed levelling and go back to manual bed levelling, the levelling is off again..
+// The size of the printable area
 #define X_BED_SIZE 235
 #define Y_BED_SIZE 235
 
